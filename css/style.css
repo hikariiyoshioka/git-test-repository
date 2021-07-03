@@ -1,0 +1,213 @@
+@charset "UTF-8";
+* {
+  font-family: serif;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: #888;
+  padding: 20px 70px;
+}
+nav ul li {
+  font-size: 20px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+#top {
+  height: 600px;
+  background: url(../img/top.png) no-repeat center;
+  background-size: cover;
+}
+.top_wrap h1 {
+  font-size: 60px;
+  color: #fff;
+  padding: 20px 20px 20px 300px;
+  float: right;
+  margin-top: 200px;
+  text-shadow: 1px 0 0 black, 0 1px 0 black;
+}
+.top_wrap h1 span {
+  font-size: 30px;
+  text-shadow: none;
+}
+#service {
+  width: 80%;
+  margin: 100px auto;
+}
+.section_title {
+  position: relative;
+  font-size: 40px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: black;
+}
+.service_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service_left img {
+  width: 70%;
+  height: auto;
+}
+.service_right h3 {
+  font-size: 30px;
+}
+.service_right p {
+  position: relative;
+  padding: 0.6em;
+  background: -webkit-repeating-linear-gradient(
+    -45deg,
+    rgb(202, 214, 238),
+    white 4px,
+    white 3px,
+    white 8px
+  );
+  background: repeating-linear-gradient(
+    -45deg,
+    rgb(168, 192, 240),
+    white 4px,
+    white 3px,
+    rgb(200, 214, 243) 8px
+  );
+  border-radius: 7px;
+}
+.service_right p:after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  left: 30px;
+  border: 15px solid transparent;
+  border-top: 15px solid rgb(168, 192, 240);
+  width: 0;
+  height: 0;
+}
+
+#news {
+  width: 80%;
+  margin: 100px auto;
+}
+.news_wrap {
+  max-width: 500px;
+  margin: 0 auto;
+  border-top: solid 5px #5989cf;
+  border-bottom: solid 5px #5989cf;
+}
+.news_wrap p {
+  line-height: 2.5;
+}
+.news_wrap p time {
+  font-weight: bold;
+}
+.news_wrap p span {
+  background-color: red;
+  border-radius: 3px;
+  color: #fff;
+  padding: 2px 5px;
+  margin: 0 20px;
+}
+#price {
+  width: 80%;
+  margin: 100px auto;
+}
+.price_wrap table {
+  width: 100%;
+  text-align: center;
+}
+.price_wrap table tr {
+  padding: 0px 15px;
+  border-bottom: solid 1px #c2c2c2;
+}
+
+.price_wrap table th {
+  font-size: 15px;
+  border-bottom: solid 1px #c2c2c2;
+}
+.price_wrap table th:nth-child(2) {
+  background-color: rgb(198, 213, 240);
+  border-radius: 10px 10px 0 0;
+}
+.price_wrap table tr td:nth-of-type(2) {
+  background-color: rgb(232, 235, 241);
+}
+.price_wrap table th:nth-child(3) {
+  border-radius: 10px 10px 0 0;
+  background-color: rgb(168, 192, 240);
+}
+.price_wrap table tr td:nth-of-type(3) {
+  background-color: rgb(220, 223, 230);
+}
+.price_wrap table td {
+  padding: 5px 15px;
+}
+table th:nth-child(3) td:nth-of-type(3) {
+  background-color: #b8bec5;
+}
+
+.price_wrap table tr td:nth-of-type(1) {
+  display: inline-block;
+  margin: 0 0 10px 0;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 20px;
+  background: #e0edff;
+  border-radius: 15px;
+}
+
+#contact {
+  background: rgb(241, 241, 241);
+}
+#contact h2 {
+  padding: 40px 0;
+}
+.form {
+  width: 70%;
+  margin: 0 auto;
+}
+.label {
+  width: 30%;
+  line-height: 2;
+  margin-left: 50px;
+  display: block;
+  text-align: left;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: solid #ddd 1px;
+  width: 50%;
+  position: relative;
+}
+input {
+  padding: 6px auto;
+}
+
+textarea {
+  vertical-align: top;
+  height: 200px;
+}
+
+.button_submit {
+  text-align: center;
+}
+
+.button {
+  padding: 10px 50px;
+  background-color: #555;
+  margin: 50px 0;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+  box-shadow: 3px 3px 3px gray;
+}
+#footer {
+  background-color: #444;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+}
